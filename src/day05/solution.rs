@@ -2,7 +2,7 @@ use std::collections::VecDeque;
 use std::fs::read_to_string;
 
 pub fn solve() {
-    let path = "./src/day05/large-input1.txt";
+    let path = "./src/day05/input.txt";
     let input = read_to_string(path).expect("Should have been able to read the file");
 
     let mut stacks1: VecDeque<Vec<String>> = VecDeque::new();
